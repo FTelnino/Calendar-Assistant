@@ -23,7 +23,7 @@
     {
       "parameters": {
         "promptType": "define",
-        "text": "Look at my events/meetings for the day and send me an email to nikhilg5830@gmail.com on the top two most important events of the day and tell me why. Look at the event title, description, attendees to find this out.",
+        "text": "Look at my events/meetings for the day and send me an email to your-email@example.com on the top two most important events of the day and tell me why. Look at the event title, description, attendees to find this out.",
         "options": {}
       },
       "type": "@n8n/n8n-nodes-langchain.agent",
@@ -85,9 +85,9 @@
         "operation": "getAll",
         "calendar": {
           "__rl": true,
-          "value": "nikhilg5830@gmail.com",
+          "value": "your-email@example.com",
           "mode": "list",
-          "cachedResultName": "nikhilg5830@gmail.com"
+          "cachedResultName": "your-email@example.com"
         },
         "options": {}
       },
